@@ -11,10 +11,10 @@ jpm xpi
 ```
 
 ## How to install
-1. Switch branch to `release`
+1. Download xpi file from [releases](https://github.com/xnuk/sexyTab/releases)
 2. In `about:config`, set `xpinstall.signatures.required` to false.
 3. Check whether or not you can trust this program.
-4. Drop `@sexytab-0.*.*.xpi` to Firefox.
+4. Drop `sexytab-0.*.*.xpi` to Firefox.
 5. Make sure you trust the program and me.
 6. Click install.
 7. Go to "`about:addons` -> Extensions panel -> Sexy tab switcher -> Options" and choose a backup folder which you will use.
