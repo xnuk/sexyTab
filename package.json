@@ -1,0 +1,45 @@
+{
+  "title": "Sexy tab switcher",
+  "name": "sexytab",
+  "version": "0.0.1",
+  "description": "Sexy tab switcher\n\nHotkey information: https://developer.mozilla.org/en-US/Add-ons/SDK/High-Level_APIs/hotkeys",
+  "main": "index.js",
+  "author": "Xnuk Shuman",
+  "engines": {
+    "firefox": ">=38.0a1"
+  },
+  "license": "MIT",
+  "keywords": [
+    "jetpack"
+  ],
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "style-loader": "^0.13.1",
+    "stylus-loader": "^2.0.0",
+    "webpack": "^1.13.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "dependencies": {
+    "fuzzy": "^0.1.1",
+    "incremental-dom": "^0.4.1",
+    "lodash.debounce": "^4.0.6",
+    "stylus": "^0.54.5"
+  },
+  "preferences": [
+    {
+      "type": "directory",
+      "name": "backupFolder",
+      "title": "Choose a backup folder",
+      "description": "Line-separated url list of current tabs will be stored"
+    },
+    {
+      "type": "string",
+      "value": "alt-`",
+      "title": "Hotkey",
+      "name": "hotkey"
+    }
+  ]
+}
