@@ -11,7 +11,7 @@ jpm xpi
 ```
 
 ## How to install
-1. Switch branch to `release`
+1. Download xpi file from [releases](https://github.com/xnuk/todo/releases)
 2. In `about:config`, set `xpinstall.signatures.required` to false.
 3. Check whether or not you can trust this program.
 4. Drop `@sexytab-0.*.*.xpi` to Firefox.
