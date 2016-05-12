@@ -1,14 +1,8 @@
 # It's just a tab switcher.
 
-## How to build
-```bash
-npm install -g jpm
-
-npm install --save-dev
-npm run build
-
-jpm xpi
-```
+![Initial app. Recently opened tab goes up.](screenshot1.png)
+![Fuzzy find "compont" to search "Component"](screenshot2.png)
+![Fuzzy find "goocmsh" to search https://encrypted.google.com/search](screenshot3.png)
 
 ## How to install
 1. Download xpi file from [releases](https://github.com/xnuk/sexyTab/releases)
@@ -20,6 +14,16 @@ jpm xpi
 7. Go to "`about:addons` -> Extensions panel -> Sexy tab switcher -> Options" and choose a backup folder which you will use.
 8. Press Alt+\`.
 9. Have fun!
+
+## How to build
+```bash
+npm install -g jpm
+
+npm install --save-dev
+npm run build
+
+jpm xpi
+```
 
 ## What are all these files
 ```
